@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Feliz 7º Mes de Aniversario. Una página especial para celebrar nuestro amor.">
+    <title>Feliz 7º Mes de Aniversario, Sofía 💖</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts para tipografía moderna y hermosa -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animación de fondo -->
+    <div class="background-animation" id="bg-animation"></div>
+    
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="glass-card main-card hidden-element">
+            <div class="badge">Mes #7</div>
+            <h1 class="title">Feliz Aniversario, <span class="highlight">Sofía</span></h1>
+            <p class="subtitle">Siete mágicos meses llenos de risas, aventuras y un amor infinito a tu lado.</p>
+            <button id="open-letter-btn" class="primary-btn">Abre Mi Sorpresa 💌</button>
+        </div>
+    </header>
+
+    <!-- Nuestro Diario Mágico -->
+    <section class="diary-section">
+        <h2 class="section-title hidden-element">Nuestro Diario Mágico 📖</h2>
+        <div class="diary-timeline" id="diary-timeline">
+            <!-- JavaScript injectará aquí todas tus fotos de assets/ -->
+        </div>
+    </section>
+
+    <!-- Quote/Mensaje -->
+    <section class="message-section hidden-element">
+        <div class="glass-card message-card">
+            <p class="love-quote">"He experimentado lo que es el verdadero amor en estos 7 meses contigo. Eres mi lugar seguro, mi inspiración diaria y mi mayor alegría."</p>
+            <div class="signature">- Con todo mi amor.</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+    </footer>
+
+    <!-- Modal Carta -->
+    <div id="letter-modal" class="modal">
+        <div class="modal-content glass-card">
+            <span class="close-btn">&times;</span>
+            <h2>Para Mi Sofía Hermosa 💖</h2>
+            <p>¡Hola mi vida!</p>
+            <p>Hoy celebramos nuestros 7 meses juntos y no podría estar más agradecido con la vida. Quería darte algo diferente, una pequeña dedicatoria en internet que quedará guardada como símbolo de lo que construimos.</p>
+            <p>Cada minuto que comparto a tu lado es oro. Me has enseñado a amar de la forma más pura y sincera. Espero que sonrías mucho al ver esto, tanto como yo sonrío cuando pienso en ti.</p>
+            <p>¡Vamos por muchísimos meses y años más agarrados de la mano!</p>
+            <p class="letter-signoff">Te amo con todo mi corazón.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
